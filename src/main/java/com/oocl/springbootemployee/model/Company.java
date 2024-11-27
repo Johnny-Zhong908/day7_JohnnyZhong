@@ -58,5 +58,8 @@ public class Company {
         this.employees = employees;
     }
 
+    public Company get() {
+        return this;
+    }
 }
 

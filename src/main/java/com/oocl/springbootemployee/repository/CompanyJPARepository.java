@@ -31,9 +31,7 @@ public interface CompanyJPARepository {
         }
         return company;
     }
-    default Company save(Company company){
-
-    }
+    Company save(Company company);
 
 
     Company addCompany(Company company);
